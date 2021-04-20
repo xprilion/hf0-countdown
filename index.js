@@ -8,7 +8,7 @@ window.onload = function() {
     ];
 
     randomLinkCode = links[Math.floor(Math.random() * links.length)];
-    randomLink = "<iframe src='https://www.youtube.com/embed/" + randomLinkCode + "?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1' frameborder='0' allowfullscreen></iframe>"
+    randomLink = "<iframe src='https://www.youtube.com/embed/" + randomLinkCode + "?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&hd=1' frameborder='0' allowfullscreen></iframe>"
     document.getElementById("video").innerHTML = randomLink;
 };
 
